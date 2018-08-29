@@ -2,5 +2,24 @@
     <string name="app_name">Routin</string>
     <string name="Contact">India(+91)</string>
     <string name="num">Phone Number</string>
+    <string name="otpbut">Resend OTP</string>
+    <string name="male">male</string>
+    <string name="Title">ROUTIN</string>
+    <string name="city">City</string>
+    <string name="Spinner1">Choose a City</string>
+    <string-array name="Choose_city">
+        <item>Puducherry</item>
+    </string-array>
+    <string-array name="Choose_locality">
+        <item>Gorimedu</item>
+        <item>Heritage Town</item>
+        <item>Lawspet</item>
+        <item>Mudaliyarpet</item>
+        <item>Muthiyalpet</item>
+        <item>Reddiyarpalayam</item>
+        <item>White Town</item>
+    </string-array>
+
     <string name="numtitle">PHONE NUMBER VERIFICATION</string>
+    <string name="title_activity_main">main</string>
 </resources>

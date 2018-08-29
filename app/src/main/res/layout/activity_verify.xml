@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-
+android:orientation="vertical"
     tools:context=".verify">
 
 
@@ -15,24 +15,26 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/editText"
-        android:layout_marginTop="130dp"
 
-        android:text="@string/Contact" />
+        android:layout_marginTop="164dp"
+        android:text="@string/Contact"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="311dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="162dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
         android:ems="10"
-        android:maxLength="10"
         android:hint="@string/num"
+        android:inputType="number"
+        android:maxLength="10"
 
-        android:inputType="phone" />
-
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
 
 
     <TextView
@@ -40,11 +42,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/editText"
-        android:text="Please enter your Phone Number. We will send you an OTP for verification."
+        android:layout_centerVertical="true"
         android:gravity="center"
-
-        android:textAppearance="@style/TextAppearance.AppCompat" />
+        android:text="Please enter your Phone Number. We will send you an OTP for verification."
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -54,7 +57,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="65dp"
         android:text="@string/numtitle"
-        android:textAppearance="@style/TextAppearance.AppCompat" />
+        android:textColor="@android:color/background_light"
+        android:visibility="visible"
+        android:textSize="25dp"/>
 
     <Button
         android:id="@+id/button"
@@ -62,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/editText"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="234dp"
+        android:layout_marginBottom="149dp"
         android:background="#f3b2c9"
         android:text="NEXT" />
 

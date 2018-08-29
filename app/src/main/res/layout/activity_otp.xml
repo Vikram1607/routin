@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/background"
-
+android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".otp">
 
@@ -15,6 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
+        android:textSize="25dp"
         android:text="PHONE NUMBER VERIFICATION"
         android:textColor="@android:color/background_light" />
 
@@ -39,6 +40,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="189dp"
+        android:textSize="18dp"
+        android:gravity="center"
         android:text="We have sent you an OTP. Please enter it above."
         android:textColor="@android:color/background_light" />
 
@@ -48,9 +51,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="209dp"
+        android:layout_marginBottom="181dp"
         android:background="#f3b2c9"
-        android:text="Resend OTP" />
+        android:text="@string/otpbut" />
 
     <Button
         android:id="@+id/button2"
@@ -61,4 +64,13 @@
         android:layout_marginBottom="44dp"
         android:background="#f3b2c9"
         android:text="VERIFY" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@android:color/background_light" />
+        android:text="TextView" />
 </RelativeLayout>
