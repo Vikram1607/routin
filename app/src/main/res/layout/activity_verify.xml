@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-android:orientation="vertical"
+    android:orientation="vertical"
     tools:context=".verify">
 
 
@@ -30,7 +30,7 @@ android:orientation="vertical"
         android:layout_marginTop="195dp"
         android:ems="10"
         android:hint="@string/num"
-        android:inputType="number"
+        android:inputType="numberSigned "
         android:maxLength="10"
 
         android:textColor="@android:color/background_light"

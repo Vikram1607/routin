@@ -20,6 +20,14 @@
         <activity android:name=".verify" />
         <activity android:name=".home" />
         <activity android:name=".prehome" />
+        <activity android:name=".posthome" />
+        <activity android:name=".dairy" />
+        <activity android:name=".beverage" />
+        <activity android:name=".bakery" />
+        <activity android:name=".confect" />
+        <activity android:name=".breakfast" />
+        <activity android:name=".batters" />
+        <activity android:name=".delivery"></activity>
     </application>
 
 </manifest>
